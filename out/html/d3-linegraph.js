@@ -16,13 +16,13 @@ function addMonths(date, months) {
 d3.linegraph = function(noTicks, noDots, parties, partyColors, partyNames, dataMax, dataMin, additionalMonths) {
     /* params */
     if (!parties) {
-        parties = ['spd', 'kpd', 'ddp', 'z', 'dvp', 'dnvp', 'nsdap', 'other'];
+        parties = ['razem', 'lewica', 'pl2050', 'po', 'psl', 'konfa', 'korona', 'other'];
     }
     if (!partyColors) {
-        partyColors = {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0'};
+        partyColors = {'razem': '#E3000F', 'lewica': '#8B0000', 'pl2050': '#DCCA4A', 'po': '#000', 'psl': '#D5AC27', 'konfa': '#3f7bc1', 'korona': '#954B00', 'other': '#a0a0a0'};
     }
     if (!partyNames) {
-        partyNames = {'spd': 'SPD', 'kpd': 'ABC', 'ddp': 'DDP', 'z': 'Z + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others'};
+        partyNames = {'razem': 'Razem', 'lewica': 'Lewica', 'pl2050': 'PL2050', 'po': 'PO', 'psl': 'PSL', 'konfa': 'Konfederacja', 'korona': 'KKP', 'other': 'Others'};
     }
     if (!additionalMonths) {
         additionalMonths = 10;
