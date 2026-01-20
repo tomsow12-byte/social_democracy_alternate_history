@@ -1,13 +1,13 @@
 title: Hjalmar Schacht against Hilferding
 new-page: true
-view-if: year = 1929 and month >= 11 and spd_in_government = 1 and finance_minister = "Hilferding" and finance_minister_party = "SPD"
+view-if: year = 1929 and month >= 11 and razem_in_government = 1 and finance_minister = "Hilferding" and finance_minister_party = "Razem"
 tags: event
 max-visits: 1
 face-image: img/portraits/SchachtHjalmar.jpg
 
 = Schacht against Hilferding
 
-Reichsbank president Hjalmar Schacht has criticized Finance Minister Hilferding of the SPD for his budget, which he claims is unbalanced and contains too much social welfare and not enough tax cuts for top earners and businesses. More importantly, he is refusing to release loans necessary for the functioning of the government unless Hilferding either massively changes his budget or resigns.
+Reichsbank president Hjalmar Schacht has criticized Finance Minister Hilferding of the Razem for his budget, which he claims is unbalanced and contains too much social welfare and not enough tax cuts for top earners and businesses. More importantly, he is refusing to release loans necessary for the functioning of the government unless Hilferding either massively changes his budget or resigns.
 
 Of course, this criticism is unfounded, but the bourgeois establishment does not care.
 
@@ -29,6 +29,6 @@ After a second budget proposal, Schacht still considers Hilferding's budget to b
 
 
 @hilferding_resign
-on-arrival: finance_minister_party = "DVP" if in_grand_coalition; finance_minister_party = "I" if in_weimar_coalition or in_popular_front or in_left_front; finance_minister = "Moldenhauer"
+on-arrival: finance_minister_party = "PSL" if in_grand_coalition; finance_minister_party = "I" if in_weimar_coalition or in_popular_front or in_left_front; finance_minister = "Moldenhauer"
 
 With no other choice, Hilferding has resigned as Finance Minister, to be replaced by a [? if in_grand_coalition: center-right ?][? if not in_grand_coalition: technocratic ?] candidate.
