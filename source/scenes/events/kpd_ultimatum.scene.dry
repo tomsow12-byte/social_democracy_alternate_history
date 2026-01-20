@@ -64,18 +64,8 @@ on-arrival: lewica_relation -= 10; workers_razem -= 8; unemployed_razem -= 8;
 Unfortunately, we have failed to accomplish all of the goals the Lewica set out. They plan to call a vote of no confidence against our government, and have already begun mounting a propaganda campaign to delegitimize our government in the eyes of the workers.
 
 - @appeal: Appeal to the Communists to have patience - we are trying!
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-- @kpd_vote_of_no_confidence.support_center: Could we form a new government based on the Center Party and [+ pl2050_name +] (and possibly PSL)?
-- @kpd_vote_of_no_confidence.let_it_happen: Let the vote happen.
-=======
 - @lewica_vote_of_no_confidence.support_center: Could we form a new government based on the Center Party and [+ pl2050_name +] (and possibly PSL)?
 - @lewica_vote_of_no_confidence.let_it_happen: Let the vote happen.
->>>>>>> Stashed changes
-=======
-- @lewica_vote_of_no_confidence.support_center: Could we form a new government based on the Center Party and [+ pl2050_name +] (and possibly PSL)?
-- @lewica_vote_of_no_confidence.let_it_happen: Let the vote happen.
->>>>>>> Stashed changes
 - @no_vonc: They cannot call a vote of no confidence due to the constitutional reforms, but they can obstruct our government at every opportunity.
 
 @appeal
