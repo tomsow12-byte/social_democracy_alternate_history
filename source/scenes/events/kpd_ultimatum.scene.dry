@@ -65,8 +65,13 @@ Unfortunately, we have failed to accomplish all of the goals the Lewica set out.
 
 - @appeal: Appeal to the Communists to have patience - we are trying!
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - @kpd_vote_of_no_confidence.support_center: Could we form a new government based on the Center Party and [+ pl2050_name +] (and possibly PSL)?
 - @kpd_vote_of_no_confidence.let_it_happen: Let the vote happen.
+=======
+- @lewica_vote_of_no_confidence.support_center: Could we form a new government based on the Center Party and [+ pl2050_name +] (and possibly PSL)?
+- @lewica_vote_of_no_confidence.let_it_happen: Let the vote happen.
+>>>>>>> Stashed changes
 =======
 - @lewica_vote_of_no_confidence.support_center: Could we form a new government based on the Center Party and [+ pl2050_name +] (and possibly PSL)?
 - @lewica_vote_of_no_confidence.let_it_happen: Let the vote happen.
